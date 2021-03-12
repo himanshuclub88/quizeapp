@@ -1,0 +1,143 @@
+MCQS
+eassy: Q1 to Q5
+medium: Q6 to Q10
+hard: Q11 to 15
+
+//Question No #1
+
+What does HTML stand for?
+Hyperlinks and Text Markup Language
+Hyper Text Markup Language
+Hyper Text Making Language
+Hyper Text Mark Language
+1
+
+//Question No #2
+
+What does CSS stand for?
+Colorful StyleSheet
+Creative Style Sheet
+Cascading Style Sheet
+Computer Style Sheet
+2
+
+//Question No #3
+
+Which HTML tag is used to define an internal style sheet?
+<script>
+<style>
+<html>
+<svg>
+1
+
+//Question No #4
+
+Which is the correct CSS syntax?
+body{color:black}
+{body{color:black}
+body={color:black}
+body:color{black}
+0
+
+//Question No #5
+
+How do you insert a comment in a CSS file?
+/*This is Comment*/
+//This Is Comment
+<!--- This Is Comment --->
+//This Is Comment//
+1
+
+//Question No #6
+
+How do you insert a comment in a HTML file?
+/*This is Comment*/
+//This Is Comment
+<!--- This Is Comment --->
+//This Is Comment//
+2
+
+//Question No #7
+
+Which property is used to change the background color?
+backgroundColor
+BgColor
+Color-Background
+background
+3
+
+//Question No #8
+
+How to write an IF statement in JavaScript?
+if i==5
+if(i==5)
+if(i==5)then
+if i==5 then
+2
+
+//Question No #9
+
+Inside which HTML element do we put the JavaScript?
+<js></js>
+<javascript></javascript>
+<script></script>
+<scripting>
+2
+
+//Question No #10
+
+How does a WHILE loop start?
+while(i <= 0)
+while(i <= 0 i++)
+while i <= 0
+while (i++ i <= 0)
+0
+
+//Question No #11
+
+HTML is what type of language ?
+Scripting Language
+Markup Language
+Programming Language
+Network Protocol
+1
+
+
+//Question No #12
+
+HTML uses
+User defined tags
+Pre-specified tags
+Fixed tags defined by the language
+Tags only for linking
+2
+
+
+//Question No #13
+
+The year in which HTML was first proposed _______.
+1990'
+1980
+2000
+1995
+0
+
+
+//Question No #14
+
+Fundamental HTML Block is known as ___________.
+HTML Body
+HTML Tag
+HTML Attribute
+HTML Element
+1
+
+
+//Question No #15
+
+Apart from <b> tag, what other tag makes text bold ?
+<fat>
+<strong>
+<black>
+<emp>
+1

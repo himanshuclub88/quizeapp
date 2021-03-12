@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Exo:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <!--    Start Section     -->
+        <div id="start" >start</div>
+        <!-- levelsection-->
+
+          <div id="level1" class="level">Eassy</div>
+          <div id="level2" class="level">Medium</div>
+          <div id="level3" class="level">Hard</div>
+
+        <!--    Guide Section    -->
+        <div id="guide">
+            <h2>RULES:-</h2>
+            <h4>1. Answer Will Blink After 30 Seconds For Each QUESTION.</h4>
+            <h4>2. Once You Selected Your Answer. Can't Be Undone.</h4>
+            <h4>3. You'll if Answer is Correct else 0.</h4>
+            <h4>4. You Can't Exit From The Quiz .</h4>
+            <div id="button">
+                <button id="exit">Exit</button>
+                <button id="continue">Continue</button>
+            </div>
+        </div>
+
+        <!--    Quiz Section    -->
+        <div id="quiz">
+            <div id="quiz_header">
+                <h5>W3VILLA Test</h5>
+                <div id="timer">
+                    <h6>Time Left</h6>
+                    <h6 id="time">00</h6>
+                </div>
+            </div>
+
+            <!--     Quiz Questions  -->
+
+            <div id="question">
+                <h2 id="questionNo"></h2>
+                <h2 id="questionText"></h2>
+            </div>
+
+            <!--       Quiz Choices   -->
+
+            <div id="optionList">
+                <h4 class="choice_que" id="option1"></h4>
+                <h4 class="choice_que" id="option2"></h4>
+                <h4 class="choice_que" id="option3"></h4>
+                <h4 class="choice_que" id="option4"></h4>
+            </div>
+
+            <!--  Answers Section-->
+
+            <div id="answersSection">
+                <h3 id="total_correct">3 Of 10 Questions</h3>
+                <h3 id="next_question">Next</h3>
+            </div>
+        </div>
+        <!--   Result Section  -->
+        <div id="result">
+            <i class="fas fa-trophy"></i>
+            <h6></h6>
+            <h6 id="points"></h6>
+            <button id="quit">See Answer</button>
+            <button id="startAgain">Start Again</button>
+        </div>
+        <!-- check answer Section -->
+        <div id="qusans">
+          <h3 id="qus1" ></h3>
+          <h6 id="ans1"> ans </h6><br>
+          <h3 id="qus2" ></h3>
+          <h6 id="ans2"> ans </h6><br>
+          <h3 id="qus3" ></h3>
+          <h6 id="ans3"> ans </h6><br>
+          <h3 id="qus4" ></h3>
+          <h6 id="ans4"> ans </h6><br>
+          <h3 id="qus5" ></h3>
+          <h6 id="ans5"> ans </h6><br>
+          <h3 id="finalReport"></h3>
+          <h3>Thank you "."</h3>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
