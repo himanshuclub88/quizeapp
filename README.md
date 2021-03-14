@@ -1,5 +1,6 @@
 # quizeapp
-technology used: html,css,javascript   with mongoDB
+technology used: html,css,javascript   with node.js
+A systen with nodeJS needed.
 
 #comand to run
 Node index.js
